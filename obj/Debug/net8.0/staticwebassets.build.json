@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5fWopaNq++14pChEphpd4pWRrtaPicdHH4W+JYKtIuU=",
+  "Source": "api_contoso_pizza",
+  "BasePath": "_content/api_contoso_pizza",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

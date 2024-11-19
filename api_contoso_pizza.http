@@ -1,0 +1,28 @@
+@api_contoso_pizza_HostAddress = http://localhost:5261
+
+GET {{api_contoso_pizza_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{api_contoso_pizza_HostAddress}}/pizza
+Accept: application/json
+
+GET {{ContosoPizza_HostAddress}}/pizza/1
+Accept: application/json
+
+POST {{api_contoso_pizza_HostAddress}}/pizza
+Content-Type: application/json
+
+{
+  "name": "Margherita",
+  "isGlutenFree": false
+}
+
+PUT {{api_contoso_pizza_HostAddress}}/pizza/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Updated Classic Italian",
+  "isGlutenFree": true
+}
+###

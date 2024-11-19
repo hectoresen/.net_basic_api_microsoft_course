@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "c656685a-c6ca-4823-98bc-16d2569c808d",
+		"name": ".NET API MICROSOFT COURSE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "35046615"
+	},
+	"item": [
+		{
+			"name": "weatherforecast (default)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5261/weatherforecast/"
+			},
+			"response": []
+		},
+		{
+			"name": "get pizzas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5261/pizza"
+			},
+			"response": []
+		},
+		{
+			"name": "get pizzas DB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5261/db/pizzas"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Pizzas DB",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n  {\r\n    \"id\": 1,\r\n    \"name\": \"Pepperoni\",\r\n    \"description\": \"A classic pepperoni pizza\"\r\n  }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5261/db/pizza"
+			},
+			"response": []
+		},
+		{
+			"name": "get pizzas by id DB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5261/db/pizza/1"
+			},
+			"response": []
+		},
+		{
+			"name": "get pizzas by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5261/pizza/5"
+			},
+			"response": []
+		},
+		{
+			"name": "Create pizza",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Toscana\",\r\n    \"isGlutenFree\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5261/pizza"
+			},
+			"response": []
+		},
+		{
+			"name": "Update pizza",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Toscana\",\r\n    \"isGlutenFree\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5261/pizza/1"
+			},
+			"response": []
+		}
+	]
+}
