@@ -13,3 +13,4 @@ Start the project with the `dotnet run` command
 9.  [Applying basic string formatting in C#](https://learn.microsoft.com/es-es/users/hectorescolanteenriquez-0755/achievements/vdltpsgm)
 10. [Using a database with a minimal API, Entity Framework Core, and ASP.NET Core](https://learn.microsoft.com/es-es/users/hectorescolanteenriquez-0755/achievements/74tluuuz)
 11. [Adding decision logic to your code using if, else, and else if statements in C#.](https://learn.microsoft.com/api/achievements/share/es-es/HectorEscolanteEnriquez-0755/N2P953SF?sharingId=C90AB6334EC03C34)
+12. [Storing and iterating data sequences using arrays and the foreach statement in C#](https://learn.microsoft.com/api/achievements/share/es-es/HectorEscolanteEnriquez-0755/HAMGLQJ8?sharingId=C90AB6334EC03C34)
